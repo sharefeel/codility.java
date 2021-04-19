@@ -7,6 +7,8 @@ import org.junit.Test;
 
 public class NestingTest {
 	private Nesting testTarget;
+	private NestingRecursion testTargetRecursion;
+	private NestingStack testTargetStack;
 
 	@Before
 	public void before() {
