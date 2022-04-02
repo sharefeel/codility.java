@@ -31,7 +31,7 @@ public class PassingCars {
     private static final int COUNT_MAX = 1000000000;
     public int solution(int[] A) {
         int count = 0;
-        int[] sum = new int[A.length];
+        int[] sum = new int[A.length]; // Additional space N
 
         sum[A.length - 1] = A[A.length - 1];
         for (int i = A.length - 2; i >= 0; i--) {
