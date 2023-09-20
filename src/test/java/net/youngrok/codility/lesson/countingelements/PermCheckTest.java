@@ -49,7 +49,7 @@ public class PermCheckTest {
 	@Test
 	public void max() {
 		int[] A = { PermCheck.MAX_A };
-		test(A, 1);
+		test(A, 0);
 	}
 
 	@Test
